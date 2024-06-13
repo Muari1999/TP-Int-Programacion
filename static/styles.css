@@ -57,7 +57,7 @@ table.table tr td {
 }
 
 table.table-striped tbody tr:nth-of-type(odd) {
-    background-color: #fcfcfc;
+    background-color: hsl(0, 85%, 50%);
 }
 
 table.table-striped.table-hover tbody tr:hover {
