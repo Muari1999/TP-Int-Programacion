@@ -1,6 +1,6 @@
 body {
     color: #566787;
-    background: #a794dc;
+    background: #ffffff;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -57,7 +57,7 @@ table.table tr td {
 }
 
 table.table-striped tbody tr:nth-of-type(odd) {
-    background-color: hsl(1, 47%, 4%);
+    background-color: #fcfcfc;
 }
 
 table.table-striped.table-hover tbody tr:hover {
