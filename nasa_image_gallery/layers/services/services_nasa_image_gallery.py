@@ -11,7 +11,7 @@ def getAllImages(input=None):
     # ¡OJO! el parámetro 'input' indica si se debe buscar por un valor introducido en el buscador.
     json_collection = []
     
-    json_collection = transport.getAllImages(input)
+    json_collection = transport.getAllImages(input);
 
     images = []
     
