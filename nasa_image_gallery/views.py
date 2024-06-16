@@ -28,9 +28,12 @@ def home(request):
 # función utilizada en el buscador.
 def search(request):
     images, favourite_list = getAllImagesAndFavouriteList(request)
-    search_msg = request.POST.get('query', '')
+   
+    search_msg = request.POST.get('query',"aca creo que hay que poner que vale " )
     if request==None:
         return images, favourite_list
+    else:
+        return search_msg
     # si el usuario no ingresó texto alguno, debe refrescar la página; caso contrario, debe filtrar aquellas imágenes que posean el texto de búsqueda.
     pass
 
